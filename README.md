@@ -1,6 +1,8 @@
 # plan_formyos
 
 
+构建根文件系统可以使用buildroot
+
 基础通用组件：
 
 1.进程间通信组件
@@ -56,3 +58,7 @@
     openwrt的procd实现了不做的进程管理方式，但是它并没有实现自动重启进程的功能。可以参考它的实现来改造linux的init进程，使其实现自动重启进程的功能。
 
 7.  参考freebsd和linux的编译框架，搭建自己的编译框架 
+
+
+荔枝派Zero
+https://www.kancloud.cn/lichee/lpi0/317714
